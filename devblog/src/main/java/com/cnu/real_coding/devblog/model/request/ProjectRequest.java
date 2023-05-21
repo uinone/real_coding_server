@@ -1,6 +1,6 @@
 package com.cnu.real_coding.devblog.model.request;
 
-import com.cnu.real_coding.devblog.entity.Project;
+import com.cnu.real_coding.common.entity.Project;
 import lombok.Getter;
 import lombok.Setter;
 

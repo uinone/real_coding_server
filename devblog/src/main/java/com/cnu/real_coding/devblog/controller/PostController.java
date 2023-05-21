@@ -1,7 +1,8 @@
 package com.cnu.real_coding.devblog.controller;
 
-import com.cnu.real_coding.devblog.entity.Post;
+import com.cnu.real_coding.common.entity.Post;
 import com.cnu.real_coding.devblog.model.request.PostRequest;
+import com.cnu.real_coding.devblog.model.response.PostResponse;
 import com.cnu.real_coding.devblog.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -21,12 +22,12 @@ public class PostController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Post>> getPosts() {
+    public ResponseEntity<List<PostResponse>> getPosts() {
         return ResponseEntity.ok(postService.getPosts());
     }
 
     @GetMapping("/{postId}")
-    public ResponseEntity<Post> getPost(@PathVariable("postId") Integer postId) {
+    public ResponseEntity<PostResponse> getPost(@PathVariable("postId") Integer postId) {
         return ResponseEntity.ok(postService.getPost(postId).orElse(null));
     }
 

@@ -1,6 +1,6 @@
 package com.cnu.real_coding.ad.service;
 
-import com.cnu.real_coding.ad.entity.Advertisement;
+import com.cnu.real_coding.common.entity.Advertisement;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

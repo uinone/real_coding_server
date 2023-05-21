@@ -1,7 +1,7 @@
 package com.cnu.real_coding.ad.controller;
 
-import com.cnu.real_coding.ad.entity.Advertisement;
 import com.cnu.real_coding.ad.service.AdService;
+import com.cnu.real_coding.common.entity.Advertisement;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,6 @@
 package com.cnu.real_coding.devblog.controller;
 
-import com.cnu.real_coding.devblog.entity.Project;
+import com.cnu.real_coding.common.entity.Project;
 import com.cnu.real_coding.devblog.model.request.ProjectRequest;
 import com.cnu.real_coding.devblog.service.ProjectService;
 import lombok.RequiredArgsConstructor;

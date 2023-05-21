@@ -1,6 +1,6 @@
-package com.cnu.real_coding.devblog.entity;
+package com.cnu.real_coding.common.entity;
 
-import com.cnu.real_coding.devblog.model.type.Tag;
+import com.cnu.real_coding.common.model.type.Tag;
 import jakarta.persistence.*;
 import lombok.*;
 

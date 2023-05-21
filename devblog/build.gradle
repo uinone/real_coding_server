@@ -11,7 +11,7 @@ dependencies {
 
     // db
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'com.h2database:h2'
+//    implementation 'com.h2database:h2'
 
     // Resilience4j
     implementation 'io.github.resilience4j:resilience4j-spring-boot3:2.0.2'

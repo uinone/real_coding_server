@@ -1,4 +1,4 @@
-package com.cnu.real_coding.devblog.model.type;
+package com.cnu.real_coding.common.model.type;
 
 public enum Tag {
     JAVA,

@@ -1,6 +1,6 @@
 package com.cnu.real_coding.devblog.repository;
 
-import com.cnu.real_coding.devblog.entity.Post;
+import com.cnu.real_coding.common.entity.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

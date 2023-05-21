@@ -1,4 +1,4 @@
-package com.cnu.real_coding.ad.entity;
+package com.cnu.real_coding.common.entity;
 
 public record Advertisement(
         String title,

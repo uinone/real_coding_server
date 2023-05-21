@@ -1,8 +1,8 @@
 package com.cnu.real_coding.devblog.model.request;
 
 
-import com.cnu.real_coding.devblog.entity.Post;
-import com.cnu.real_coding.devblog.model.type.Tag;
+import com.cnu.real_coding.common.entity.Post;
+import com.cnu.real_coding.common.model.type.Tag;
 import jakarta.validation.Valid;
 import lombok.Getter;
 
